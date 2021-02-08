@@ -100,7 +100,7 @@ int s_two_s_prec_width_1fit_b_2trunc(void){return test("%7.3s%3.3s", "hello", "w
 int s_two_s_prec_width_0fit_2trunc(void){return test("%3.3s%3.3s", "hello", "world");}
 int s_two_s_prec_width_2trunc(void){return test("%3s%3s", "hello", "world");}
 //String specifiers, other tests
-int s_two_strings_rj_and_lj(void){return test("%7s%-5s", "hello", "world");}
+int s_two_strings_rj_and_lj(void){return test("%7s%5s", "hello", "world");}
 //String specifiers - NULL strings
 int s_null_basic_string_expansion(void){return test("hello, %s.", NULL);}
 int s_null_only_string_expansion(void){return test("%s", NULL);}
